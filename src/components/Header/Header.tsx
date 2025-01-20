@@ -15,7 +15,7 @@ function Header(): ReactElement {
                 className={
                   ({isActive}) => `nav__btn ${isActive ? "nav__btn_active" : ""}`
                 }
-              >Все котики</NavLink>
+              >Все&nbsp;котики</NavLink>
             </li>
             <li className="nav__item">
               <NavLink 
@@ -23,7 +23,7 @@ function Header(): ReactElement {
                 className={
                   ({isActive}) => `nav__btn ${isActive ? "nav__btn_active" : ""}`
                 }
-              >Любимые котики</NavLink>
+              >Любимые&nbsp;котики</NavLink>
             </li>
           </ul>
         </nav>

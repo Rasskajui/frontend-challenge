@@ -1,13 +1,13 @@
 .header {
   max-width: 100%;
   background: #2196F3;
-  padding: 0 62px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .24);
 }
 
 .nav__list {
+  width: 91.4%;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
 }

@@ -21,18 +21,20 @@ function Main(props: MainType): ReactElement {
           next={props.getCatImages}
           hasMore={true}
           loader={<p className="loader">... загружаем еще котиков ...</p>}
-          className={'list'}
+          className={'wrapper'}
         >
-        {
-          props.cards.map((card, inx) => 
-          <Card 
-            key={inx}
-            id={card.id} 
-            url={card.url} 
-            favourites={props.favourites} 
-            setFavourites={props.setFavourites}
-          />)
-        }
+        <ul className='list'>
+          {
+            props.cards.map((card, inx) => 
+            <Card 
+              key={inx}
+              id={card.id} 
+              url={card.url} 
+              favourites={props.favourites} 
+              setFavourites={props.setFavourites}
+            />)
+          }
+        </ul>
         </InfiniteScroll>
     </>
   );
