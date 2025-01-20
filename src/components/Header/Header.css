@@ -1,0 +1,30 @@
+.header {
+  max-width: 100%;
+  background: #2196F3;
+  padding: 0 62px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .24);
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__btn {
+  text-decoration: none;
+  display: block;
+  color: rgba(100%, 100%, 100%, .7);
+  cursor: pointer;
+  padding: 23px;
+}
+
+.nav__btn:hover {
+  color: #fff;
+}
+
+.nav__btn_active {
+  background: #1E88E5;
+  color: #fff;
+}
